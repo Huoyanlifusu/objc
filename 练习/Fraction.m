@@ -9,6 +9,8 @@
 
 @implementation Fraction
 
+
+
 @synthesize numerator, denominator;
 
 -(void) print {
@@ -48,6 +50,16 @@
     numerator /= u;
     denominator /= u;
     
+}
+
+-(Fraction *) initWith:(int)n ober:(int)d {
+    self = [super init];
+    
+    if (self) {
+        [self setTo:n over:d];
+    }
+    
+    return self;
 }
 
 

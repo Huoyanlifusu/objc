@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(void) add: (Fraction *) f;
 -(void) reduce;
+-(Fraction *) initWith: (int) n ober: (int) d;
 
 @end
 

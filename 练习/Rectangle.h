@@ -6,9 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "XYpoint.h"
 
 NS_ASSUME_NONNULL_BEGIN
-@class XYPoint;
+
 
 @interface Rectangle : NSObject
 
